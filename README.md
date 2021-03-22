@@ -2,13 +2,14 @@
 
 * [Introduction](#introduction)
 * [Usage](#usage)
+* [Settings](#settings)
 
 ## Introduction
 This is a flask module to use the iziToast notifications with the flask flash function.
 
 ## Usage
 
-`HTML:`
+**HTML:**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +32,7 @@ This is a flask module to use the iziToast notifications with the flask flash fu
 </html>  
 ```
 
-`Python:`
+**Python:**
 ```python
 from flask import Flask, render_template, flash
 from flask_izi import Izi
